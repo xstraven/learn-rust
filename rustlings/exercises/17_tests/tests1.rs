@@ -4,7 +4,6 @@
 fn is_even(n: i64) -> bool {
     n % 2 == 0
 }
-
 fn main() {
     // You can optionally experiment here.
 }
@@ -17,7 +16,8 @@ mod tests {
     #[test]
     fn you_can_assert() {
         // TODO: Test the function `is_even` with some values.
-        assert!();
-        assert!();
+        use crate::is_even;
+        assert!(is_even(4));
+        assert!(is_even(0));
     }
 }
