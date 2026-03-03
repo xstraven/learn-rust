@@ -10,6 +10,8 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+    let iter = (1..=num).into_iter();
+    iter.product::<u64>()
 }
 
 fn main() {
