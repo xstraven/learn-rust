@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-using_as
+hashmaps1
 
 intro1
 intro2
@@ -45,6 +45,7 @@ strings4
 modules1
 modules2
 modules3
+hashmaps1
 hashmaps2
 hashmaps3
 quiz2
@@ -90,3 +91,8 @@ macros4
 clippy1
 clippy2
 clippy3
+using_as
+from_into
+from_str
+try_from_into
+as_ref_mut
