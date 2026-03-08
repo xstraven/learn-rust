@@ -23,7 +23,6 @@ fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use std::panic;
 
     #[test]
     fn correct_width_and_height() {
